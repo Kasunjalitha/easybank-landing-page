@@ -677,6 +677,27 @@ body.scroll-hide {
   color: white;
   font-size: 0.85rem;
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.developer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.developer-info > a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.developer-info > p {
+  color: white;
+  font-size: 0.85rem;
 }
 
 @media only screen and (min-width: 1536px) {

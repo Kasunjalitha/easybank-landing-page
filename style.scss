@@ -526,8 +526,25 @@ body.scroll-hide {
 .copyright-text {
   color: $White;
   font-size: 0.85rem;
-
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.developer-info {
+  display: flex;
+  align-items: center;
+}
+
+.developer-info > a {
+  text-decoration: none;
+  color: $White;
+  margin-left: 10px;
+}
+
+.developer-info > p {
+  color: $White;
+  font-size: 0.85rem;
+  // margin-top: 10px;
 }
 
 @media only screen and (min-width: 1536px) {
